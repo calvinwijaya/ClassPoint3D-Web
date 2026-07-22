@@ -1,0 +1,72 @@
+:root {
+    --ugm-blue: #003366;
+    --ugm-accent: #f4f6f9;
+}
+
+body {
+    background-color: var(--ugm-accent);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    flex: 1;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.brand-text {
+    font-weight: 700;
+    color: var(--ugm-blue);
+    letter-spacing: -0.5px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.plot-container {
+    height: 520px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-icon img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-ugm-logo {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: #444;
+}
+
+.footer-text strong {
+    color: var(--ugm-blue);
+}
